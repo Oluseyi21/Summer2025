@@ -1,0 +1,42 @@
+body{
+    background-color: #fff8f0;
+    font-family: sans-serif;
+    padding: 20px;
+}
+/* Style the h1 element*/
+h1{
+    color: green;
+    text-align: center;
+}
+/* Style the name, contact address and email*/
+form > div + div  {
+    background-color: #ffffff;
+    padding: 20px;
+    radius: 10px;
+    shadow: 0, 0, 10px;
+    width: 500px;
+    margin: auto;
+}
+/* Style the label*/
+label{
+    display: block;
+    margin: 15px;
+    weight: bold;
+}
+/* Style the Footer*/
+footer {
+    text-align: center;
+    font-size: 30px;
+    color: burlywood;
+}
+/* Style the submit button*/
+button{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    radius: 5px;
+    margin-top: 20px;
+}
