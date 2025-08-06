@@ -1,0 +1,136 @@
+/* Contact page */
+body{
+    background-color: #fffaf0;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    background-color: #fffaf0;
+    font-family: Arial, sans-serif;
+}
+main h1{
+    text-align: center;
+    font-family: 'Press Start 2P' , cursive;
+    font-size: 1.8rem;
+    color: #d32f2f;
+    margin-bottom: 40px;
+}
+/* Contact info */
+section {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+section p {
+    margin: 10px 0;
+}
+/*Contact form */
+div form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+div label {
+    font-weight: bold;
+    color: #222;
+}
+div input,
+div textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+div textarea {
+    resize: vertical;
+}
+div button{
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.contact-form button:hover{
+    background-color: #a40000;
+}
+/* Contact hours */
+.contact-hours {
+    background-color: #ffffff;
+    border-left: 4px solid #f1c40f;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.05)
+}
+.contact-hours h2 {
+    color: #d32f2f;;
+    font-family: 'Press Start 2' , cursive;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+.contact-hours ul{
+    list-style: none;
+    padding-left: 0;
+}
+.contact-hours li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+/* Social Links */
+.social-links {
+    margin-top: 40px;
+    text-align: center;
+}
+.social-links h2{
+    font-size: 1.1rem;
+    font-family: 'Press Start 2' , cursive;
+    color: #d32f2f;
+    margin-bottom: 15px;
+}
+.social-links ul{
+    list-style: none;
+    padding-left: 0;
+}
+.social-links li{
+    margin: 10px 0;
+}
+.social-links a{
+    font-size: 1rem;
+    color: #d32f2f;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social-links a:hover{
+    text-decoration: underline;
+}
+/*Footer*/
+footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+/* Responsive Designs */
+@media (max-width: 600px) {
+    .contact-page{
+        padding: 40px 15px;
+    }
+    .contact-page h1{
+        font-size: 1.5rem;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,120 @@
+/* PRODUCT PAGE */
+body {
+    background-color: #fffaf0;
+    background-size: cover;
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    background-color: #fffaf0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.product-image img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.product-details {
+    flex: 1;
+}
+.product-details h1{
+    font-family: 'Press Start 2P' , cursive;
+    font-size: 1.5rem;
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 1.5rem;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.short-description {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+ul li {
+    background-size: 18px;
+    padding-left: 28px;
+    margin-bottom: 10px;
+}
+.buy-button {
+    background-color: #d32f2f;
+    color: #f8f8f8;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.buy-button:hover {
+    background-color: #a40000;
+}
+.product-video {
+    margin-top: 50px;
+    text-align: center;
+}
+.product-video h2{
+    font-family: 'Press Start 2P' , cursive;
+    font-size: 1.2rem;
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+/*Reviews */
+.product-reviews {
+    background: #fff;
+    border-left: 4px solid #d32f2f;
+    padding: 15px;
+    margin-top: 30px;
+}
+.product-reviews h2{
+    margin-bottom: 10px;
+    color: #d32f2f;
+}
+/* care and maintenance */
+section {
+    margin-top: 40px;
+    background-color: #fffaf0;
+    border-left: 4px solid #d32f2f;
+    padding: 15px 20px;
+}
+section h2 {
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+/*Footer*/
+footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
